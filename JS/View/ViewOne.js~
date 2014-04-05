@@ -1,0 +1,15 @@
+var ViewOne = function (pageOne, model) {
+
+	this.createButton = pageOne.find("#createButton");
+
+	this.update = function(arg) {
+	}
+
+	this.hide = function() {
+		pageOne.hide();
+	}
+
+	this.show = function() {
+		pageOne.show();
+	}
+}
